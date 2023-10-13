@@ -101,11 +101,11 @@ body{
 
 
 
-.bg-light{
-    background-color: #fafafa !important;
-    color: #7c6A46 !important;
+.bg-light {
+    background-color: #fafafa;
     transition: 0.5s;
-}
+     }
+    
 .bg-light:hover{
     background-color: #7c6A46 !important;
     color: #fff !important;
