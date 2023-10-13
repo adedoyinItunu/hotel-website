@@ -1,0 +1,183 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="container-fluid bg-danger vh-100">
+        <div class="row h-100 text-center">
+            <div class="col-md-5 bg-img p-5">
+                <div class="flex-column ">
+                    <h1>welcome</h1>
+                    <p>A town hall different from bala blu, .</p>
+                </div>
+            </div>
+            <div class="col-md-7 h-100">
+                <div class="row justify-content-center align-items-center h-100  ">
+                 <div class="col-md-6">
+                    <h2>Account sign in</h2>
+                    <form action="#">
+                        <div class="mb-3 ">
+                            <input type="email"placeholder="email" class="form-control">
+                        </div>
+                        <div  class="mb-3">
+                            <input type="password"placeholder="password" class="form-control">
+                        </div>
+                        <div  class="mb-3">
+                            <input type="checkbox" name="" id="" onclick="viewPass()"><span>show password</span>
+                        </div>
+                        <button class="btn btn-success">Sign in</button>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function viewPass(){
+                var inpType= document.getElementById("password").Type
+                if (inputType == "password") {
+                document.getElementById("password").type = "text"
+            } else {
+                document.getElementById("password").type = "password"
+            }
+            }
+        </script>
+    </section>
+</body>
+</html>
+
+ -->
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Sign In</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="container-fluid bg-secondary vh-100">
+        <div class="row h-100 text-center">
+            <div class="col-md-5 bg-img p-5">
+                <div class="d-flex flex-column mt-auto h-100 justify-content-center">
+                    <h1 class="text-light">Welcome</h1>
+                    <p class="text-light">Kindly Fill In Your Credentials</p>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="row justify-content-center align-items-center h-100">
+                    <div class="col-md-6">
+                        <h3 class="text-light">Account Sign In</h3>
+                        <form action="#">
+                            <div class="mb-3">
+                                <label for="email">Email</label> 
+                                <input type="email" placeholder="Email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                 <label for="password">Password</label> -->
+                                <!-- <input type="password" class="form-control" placeholder="Password" id="password">
+                            </div>
+                            <div class="mb-3">
+                                <input type="checkbox" onclick="viewPass"> <span>Show Password</span>
+                            </div>
+                            <button class="btn btn-outline-light">Sign In</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function viewPass() {
+            var inputType = document.getElementById("password").type
+            if (inputType == "password") {
+                document.getElementById("password").type = "text"
+            } else {
+                document.getElementById("password").type = "password"
+            }
+        }
+    </script>
+
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>   -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Sign In</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="container-fluid bg-secondary vh-100">
+        <div class="row h-100 text-center">
+            <div class="col-md-5 bg-img p-5">
+                <div class="d-flex flex-column mt-auto h-100 justify-content-center">
+                    <h1 class="text-light">Welcome</h1>
+                    <p class="text-light">Kindly Fill In Your Credentials</p>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="row justify-content-center align-items-center h-100">
+                    <div class="col-md-6">
+                        <h3 class="text-light">Account Sign In</h3>
+                        <form action="#">
+                            <div class="mb-3">
+                                <label for="email">Email</label>
+                                <input type="email" placeholder="Email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" placeholder="Password" id="password">
+                            </div>
+                            <div class="mb-3">
+                                <input type="checkbox" onclick="togglePasswordVisibility()"> <span>Show Password</span>
+                            </div>
+                            <button class="btn btn-outline-light">Sign In</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function togglePasswordVisibility() {
+            var passwordInput = document.getElementById("password");
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+            } else {
+                passwordInput.type = "password";
+            }
+        }
+    </script>
+
+    <script src="js/bootstrap.js"></script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins&family=Raleway&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+:root{
+    --pri-color:#7c6a46;
+}
+
+
+
+
+.ff-script{
+    font-family: 'Dancing Script', cursive;
+
+}
+.ff-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.ff-raleway{
+    font-family: 'Raleway', sans-serif;
+}
+.bg-purple{
+    background-color: purple;
+}
+.text-bg-purple{
+    background-color: purple;
+    color: white;
+
+}
+.text-justify{
+    text-align: justify;
+
+}
+.vh-50{
+    height: 50vh;
+
+}
+.bg-img{
+    background-image: url('../img/pexels-amar-preciado-8981847.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btn-primary{
+    background-color: #7c6A46 !important;
+    border-color:#7c6A46 ;
+}
+/* .btn-primary :focus{
+    background-color: #352c1b !important;
+    border-color: #7c6A46;
+} */
+.btn-primary :hover{
+    background-color: #352c1b !important;
+    border-color: #7c6A46;
+
+}
+.btn-square{
+    width: 50px;
+    height: 50px;
+    
+}
+.btn-success{
+   background-color:#00A699 ; 
+   border-color: #00A699;
+}
+.btn-success:hover{
+    background-color: #04786f;
+    border-color: #04786f;
+}
+.text-primary
+{
+    color: #7c6A46 !important;
+}
+.img-hero{
+    max-width: 100%;
+    height: 80vh;
+
+}
+::placeholder{
+    color: #1c1c1c;
+}
+.d-flex label{
+    font-weight: bold;
+}
+.mtn-3{
+    margin-top: -7rem;
+    z-index: 999;
+    position: absolute;
+}
+/* :root{
+    --background-color:#fff;
+    --text-color:#555;
+    --title-color:#000;
+
+}
+body{
+    background: var(--background-color);
+    color: var(--text-color);
+}
+.toggle-btn{
+    background: #4864ff; */
+
+
+
+.bg-light{
+    background-color: #fafafa !important;
+    color: #7c6A46 !important;
+    transition: 0.5s;
+}
+.bg-light:hover{
+    background-color: #7c6A46 !important;
+    color: #fff !important;
+}
+/* }
+  img button {
+    position: absolute;
+} */
+.top-right-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+.underline{
+   position: relative;
+   cursor: pointer;
+
+}
+
+.underline:after{           
+content:'';
+height: 2px;
+width:  10%;
+position: absolute;
+background: #fff;
+bottom: -4px ;
+left: 0;
+right: 0;
+margin: auto;
+transition: .5s;  
+}
+
+.underline:hover::after{
+    width :15%;
+   
+
+}
+.bg-lux{
+    background-image: url(../img/hotel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.filter{
+    background-color: rgba(124, 106, 70, 0.5);
+}
+
+.mt-6{
+    margin-top: 6rem;
+}
+
+.ms-l{
+    margin-left: 0.7rem;
+}
+
+.bg-primary{
+    background-color: var(--pri-color) !important;
+}
+
+body{
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+
+ :root{
+    --background-color:#fff;
+    --text-color:#555;
+    --title-color:#000;
+
+}
+
+
+.dark-theme{
+
+    --background-color:#000;
+    --text-color:#999;
+    --title-color:#fff;
+}
